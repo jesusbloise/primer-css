@@ -1,0 +1,62 @@
+body{
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+  height: 20em;
+  background-image: url("../img/logo.JPG");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+.text-header {
+  padding: 2em;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+.header h1 {
+  font-weight: 400;
+}
+
+.products{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+  background-position: center;
+
+  padding: 5em 20em 0em 10em;
+  background-color: black;
+  color: white;
+}
+
+.products .poleras{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products .poleras img {
+  width: 30%;
+  border: solid 1px #ddd;
+}
+.products .poleras .text-poleras{
+  padding: 0.5em;
+}
+.products img{
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+
+.footer{
+  height: 10em;
+  line-height: 3em;
+  background-color: rgb(97, 96, 96);
+  color: white;
+  text-align: center;
+}
